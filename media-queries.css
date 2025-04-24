@@ -7,12 +7,18 @@ body {
   body {
     background-color: blue;
   }
+  h1 {
+    font-size: 20px;
+  }
 }
 
 /* SMALL DEVICES (PHONES) */
 @media (min-width: 481px) and (max-width: 767px) {
   body {
     background-color: green;
+  }
+  h1 {
+    font-size: 32px;
   }
 }
 
@@ -21,6 +27,9 @@ body {
   body {
     background-color: yellow;
   }
+  h1 {
+    font-size: 40px;
+  }
 }
 
 /* LARGER DEVICES (LAPTOPS OR SMALL DESKTOPS ) */
@@ -28,11 +37,17 @@ body {
   body {
     background-color: orange;
   }
+  h1 {
+    font-size: 50px;
+  }
 }
 
 /* EXTRA LARGE DEVICES (DESKTOPS) */
 @media (min-width: 1281px) {
   body {
     background-color: purple;
+  }
+  h1 {
+    font-size: 60px;
   }
 }
