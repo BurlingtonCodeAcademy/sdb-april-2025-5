@@ -54,6 +54,14 @@ nav a {
   background-color: white;
   border-radius: 6px;
   padding: 1rem;
-
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: darkgrey;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 2rem;
+  color: white;
 }
