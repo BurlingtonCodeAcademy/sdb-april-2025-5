@@ -1,0 +1,38 @@
+body {
+  background-color: red;
+}
+
+/* EXTRA SMALL DEVICES (PHONES) */
+@media (max-width: 480px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* SMALL DEVICES (PHONES) */
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    background-color: green;
+  }
+}
+
+/* MEDIUM DEVICES (TABLETS) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+/* LARGER DEVICES (LAPTOPS OR SMALL DESKTOPS ) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    background-color: orange;
+  }
+}
+
+/* EXTRA LARGE DEVICES (DESKTOPS) */
+@media (min-width: 1281px) {
+  body {
+    background-color: purple;
+  }
+}
